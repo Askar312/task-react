@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    min-height: 10vh;
+    background-color: rgb(25, 156, 218);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.active{
+    color: yellow;
+    font-size: 40px;
+}
+
+li{
+    margin-top: 1vh;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+input{
+    margin-left: 1.5vw;
+}
+
+#recept{
+    text-align: center;
+}
+
+#count{
+    text-align: center;
+}
+
+.text-center{
+    margin: 10px auto;
+}
